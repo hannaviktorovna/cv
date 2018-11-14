@@ -429,7 +429,7 @@ table{
   pointer-events: none;
   left: 16%;
   font-size: 20px;
-  top:168%;
+  padding: 6.9% 0;
 }
 
 .button {
