@@ -423,13 +423,13 @@ table{
 
 .dopinfo p{
   line-height: 1.6em;
-  width: 38%;
-  position: relative;
+  width: 72%;
+  position: absolute;
   text-align: center;
   pointer-events: none;
-  left: 31%;
+  left: 16%;
   font-size: 20px;
-  top:90px;
+  top:168%;
 }
 
 .button {
