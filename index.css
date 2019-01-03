@@ -433,12 +433,9 @@ table{
 }
 
 .button {
-    left: 45%;
-    position: absolute;
-    top: 3760px;
-    height: 48px;
-    min-height: 19px;
-    width: 220px;
+   position: absolute;
+   top: 3760px;
+   text-align: center;
   }
 
 .button a{
