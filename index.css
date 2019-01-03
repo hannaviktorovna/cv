@@ -436,6 +436,7 @@ table{
    position: absolute;
    top: 3760px;
    text-align: center;
+   width: 100%;
   }
 
 .button a{
