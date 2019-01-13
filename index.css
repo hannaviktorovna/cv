@@ -1,0 +1,450 @@
+body {
+  font-size: 10px;
+  font-family: Arial,Helvetica,sans-serif;
+	color: #435f3d;
+	height: 100%;
+	overflow-x: auto;
+  overflow-y: scroll;
+}
+.header {
+    position: fixed;
+    margin-top: 0px;
+    left: auto;
+    right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    min-width: 980px;
+    z-index: 50;
+    top: 0px;
+    height: 101px;
+    display:inline-block;
+    background-color: #fdfdfd;
+    min-width: 980px;
+}
+    #name {	
+	  font:normal normal normal 25px/1.2em 'open sans',sans-serif; 
+    position: absolute;
+    margin: 35px; 
+    z-index: 50;
+    height: 42px;
+    min-height: 42px;
+    width: 244px; 
+}
+
+ol, ul {
+    list-style: none;
+
+}
+
+a {
+   text-decoration: none;
+   color: #435f3d;
+}
+
+.pages {
+   top: 15px;
+   right: 0px;
+   position: fixed;
+   margin-right: 15px;
+   font: normal normal normal 13px/1.2em 'open sans',sans-serif;
+   white-space: nowrap;
+   display: inline-block;
+   overflow: visible;
+}
+
+.pages li {
+	padding: 5px;
+	display:inline-block;
+}
+
+
+
+.pages_container {
+	  left: 0px;
+    width: 100%;
+    min-width: 980px;
+    position: absolute;
+    top: 101px;
+    height: 3630px;
+}
+
+.slide_1 {
+	background: url('https://raw.githubusercontent.com/hannaviktorovna/cv/master/images/slide-1.jpg');
+	background-repeat: no-repeat; 
+	background-size:cover;
+	height: 583px;
+	margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 980px;
+  position: absolute;
+  text-align: center;
+}
+
+.photo {
+	margin-left: -40%;
+  margin-top: 103px;
+  display: inline-block;
+  }
+
+ p img {
+  margin-right: -3px; 
+}
+
+.persinfo {
+	position: absolute;
+	background-color: #f1f1f1;
+	margin-top: 113px;
+  width: 40%;
+  height: 80.6%;
+  display: inline-block;
+  text-align: left;
+   }
+
+.info {
+  font-size: 14px;
+  margin-top: 15px;
+  padding-left: 12%;
+  position: absolute;
+}
+
+.info {
+  font-size: 14px;
+}
+
+.profiles {
+  background-color: #435f3d;
+  height: 14%;
+  margin-top: 415px;
+  padding: 6px;
+  padding-left: 27%;
+}
+
+.profiles img {
+  width: 30px; 
+  height: 30px;
+  margin-top: 8px;
+  margin-right: 55px;
+}
+
+.slide_2 {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    min-width: 980px;
+    height: 350px;
+    margin-top: 583px; 
+    bottom: 0;
+    background-color: #dedede;
+}
+
+.objective {
+    line-height: 1.6em;
+    width: 38%;
+    position: relative;
+    text-align: center;
+    pointer-events: none;
+    top: 70px;
+    left: 31%;
+    font-size: 20px;
+    padding: 0;
+}
+
+.slide_3, .slide_4, .slide_5, .slide_6, .slide_7, .slide_8 {
+  position: absolute;
+  height: 100px;
+  padding-top: 15px;
+  left: 0px;
+  width: 100%;
+  min-width: 980px;
+  text-align: center;
+  font-size: 24px;
+  }
+
+.slide_3 {
+  top: 928px;
+  border-bottom: 1px solid #dedede;
+}
+
+
+.date, .date2 {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.date_1, .date_2, .date2_1, .date2_2, .date2_3, .date2_4 {
+    z-index: 0;
+    width: 45%;
+    position: absolute;
+    pointer-events: none;
+    visibility: inherit;
+    text-align: right;
+
+}
+
+.date_1, .date2_1, .company_1, .univer_1{
+top: 50px;
+}
+
+.date_2, .company_2 {
+  top: 294px;
+}
+
+.date_1 h3, .date_2 h3, .date2_1 h3, .date2_2 h3, .date2_3 h3, .date2_4 h3 {
+  letter-spacing: 0.2em;
+}
+
+.circle_1, .circle_2, .circle_3, .circle_4, .circle_5, .circle_6 {
+    left: 48.52%;
+    width: 6px;
+    position: absolute;
+    height: 6px;
+    background-color: #435f3d;
+    border-radius: 6px;
+  }
+
+.circle_1, .circle_3 {
+  top: 74px;
+}
+
+.circle_2 {
+   top: 317px;
+}
+
+.circle_4 {
+   top: 173px;
+}
+
+.circle_5 {
+   top: 273px;
+}
+
+.circle_6 {
+   top: 373px;
+}
+
+.company_1, .company_2, .univer_1, .univer_2, .course1, .course2 {
+    left: 53%;
+    position: absolute;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+.company_1 ul, .company_2 ul, .univer_1 ul, .univer_2 ul, .course1 ul, .course2 ul {
+  line-height: 20px;
+  letter-spacing: normal;
+  padding-left: 0px;
+  padding-right: 20px; 
+}
+
+.line1, .line2 {
+    left: 48.65%;
+    width: 2px;
+    position: absolute;
+    background-color: #dedede;
+    top: 78px;
+}
+
+.line1 {
+  height: 348px;
+  }
+
+.line2 {
+  height: 365px;
+}
+
+
+.slide_4 {
+  top: 1220px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  background-color: #435f3d;
+  color: #ffffff;
+}
+
+.date2_1, .date2_2, .date2_3, .date2_4  {
+    z-index: 0;
+    top: 50px;
+    width: 45%;
+    position: absolute;
+    pointer-events: none;
+    visibility: inherit;
+    text-align: right;
+
+}
+
+.date2_1 h3, .date2_2 h3, .date2_3 h3, .date2_4  h3 {
+  letter-spacing: 0.2em;
+}
+
+.univer_1, .univer_2, .univer_3, .course_1, .course_2 {
+    left: 53%;
+    position: absolute;
+    top: 50px;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+
+.date2_2 h3 {
+  letter-spacing: 0.2em;
+}
+
+.date2_2, .univer_2 {
+    top: 150px;
+}
+
+.univer_2 p {
+  line-height: 20px;
+  letter-spacing: normal;
+  list-style: none;
+  padding: 0;
+}
+
+.course1, .date2_3 {
+top: 250px;
+}
+
+.course2, .date2_4 {
+top: 350px;
+}
+
+.slide_5 {
+  top: 1720px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #dedede;
+}
+.program {
+  width: 100%;
+  position: absolute;
+}
+
+.program img {
+  width: 65px;
+  height: 65px;
+}
+
+.program div {
+  display: inline-block;
+  margin-top: 60px;
+  padding-right: 5%; 
+}
+
+.slide_6 {
+  top: 2010px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.skills {
+  background: url('https://raw.githubusercontent.com/hannaviktorovna/cv/master/images/slide-2.jpg');
+  background-repeat: no-repeat; 
+  background-size:cover;
+  border-top: 2px solid #ffffff;
+  height: 383px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  position: absolute;
+  top: 115px;
+}
+
+table{
+  position: absolute;
+  border-spacing: 95px 29px;
+  table-layout: fixed;
+  width: 100%;
+  padding-left: 2%; 
+}
+
+.skills-slider tr {
+  font-size: 16px;
+  background: #949494;
+  opacity: 0.7;
+  height: 85px;
+  position: relative;
+}
+
+.slide_7 {
+  top: 2577px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.language img {
+  width: 65px;
+  height: 65px;
+}
+
+.language div {
+  display: inline-block;
+  text-align: center;
+  margin-top: 60px;
+  padding-right: 3%; 
+  margin-left: 4%;
+}
+
+.language p {
+  color: #949494;
+  font-size: 11px;
+  font-weight:bold;
+}
+
+.slide_8 {
+  top: 3170px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.dopinfo {
+  padding: 0;
+  height: 350px;
+}
+
+.dopinfo p{
+  line-height: 1.6em;
+  width: 72%;
+  position: absolute;
+  text-align: center;
+  pointer-events: none;
+  left: 14%;
+  font-size: 20px;
+  padding: 3% 0;
+}
+
+.button {
+    position: absolute;
+    top: 3530px;
+    height: 48px;
+    min-height: 19px;
+    width: 100%;
+    text-align: center;
+  }
+
+.button a{
+  text-decoration: none;
+  color: #435f3d;
+}
+
+.button a:link {
+  font-size: 16px;
+  font-weight:bold;
+  padding: 15px;
+  border: 3px solid #435f3d;
+}
+
+.button a:hover {
+  background: #435f3d;
+  color: #ffffff;
+  padding: 15px;
+}
+
+
+
+
+ 
+
+	
+
