@@ -401,6 +401,7 @@ table{
 .dopinfo {
   padding: 0;
   height: 350px;
+  color: #435f3d;
 }
 
 .dopinfo p{
@@ -421,6 +422,8 @@ table{
     min-height: 19px;
     width: 100%;
     text-align: center;
+    background-color: #435f3d;
+    color: #ffffff;
   }
 
 .button a{
